@@ -1,0 +1,297 @@
+header, section, footer, aside, nav, article, figure, audio, video, canvas {
+	display:block;
+	font-family:  Verdana, calibri, Arial, Sans-Serif;
+    font-size: 14px;
+}
+
+body{
+	margin: 0 auto;
+	background-color: #7c7c7c;
+}
+
+
+#wrapper{
+	background-color: #fff;
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header {
+	background-image: url(pic/mainTitle.jpg);
+	background-repeat: no-repeat;
+	background-position: 25px 50px ;
+	height: 180px;
+
+}
+
+header img {
+	margin: 10px 0 0 25px;
+}
+
+
+header a {
+	vertical-align: 3px;
+	margin: 0 58px 0 0 ;
+	color: #000;
+}
+
+#leftTxt{
+	float:left;
+
+}
+
+#rightTxt{
+	float:right;
+
+}
+
+#telNmb{
+
+	color: #ef0b0f;
+	padding: 123px 0 0 262px ;
+	font-size: 34px;
+	font-weight:bold;
+}
+
+#wrap-content{
+	display: table;
+	width: 100%;
+	box-sizing: border-box; 
+	margin: 0 auto;
+
+}
+
+#wrap-content #lmenu, #wrap-content #content{
+	display: table-cell;
+	vertical-align: top;
+	width: auto;
+	box-sizing: border-box;
+
+}
+
+#lmenu{
+	max-width: 250px;
+	min-width: 250px;
+	width: 250px;
+}
+
+#lmenu ul{
+    margin: 0 0 70px 0;
+    padding: 0 16px 0 25px;
+}
+
+
+#lmenu li {
+    display: inline-block;
+    padding-right: 0;
+}
+
+#lmenu ul div{
+    background-color: #959595 ;
+    width: 207px;
+    height: 25px;
+    margin-bottom: 3px;
+}
+
+#lmenu a{
+    color: #fff;
+    font-size: 12px;
+    text-decoration:none;
+    padding-left: 5px;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+
+#content{
+    max-width: 920px;
+    min-width: 920px;
+    width: 920px;
+    overflow: hidden;
+}
+
+#slogan{
+    width: 850px;
+    height: 35px;
+    background-color: #ef0b0f;
+    color: #fff;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: Arial;
+    padding:0 0 5px 10px;
+    margin: 0 0 20px 10px;
+}
+
+article {
+    padding: 0 48px 0 11px;
+}
+
+#mainCar{
+    background-image: url(pic/mainCar.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 0 ;
+    display: table-cell;
+    vertical-align: top;
+    width: 434px ;
+    min-width: 434px;
+    height: 340px;
+    border-right: 2px solid #9d9d9d;
+    cursor: pointer;
+    box-sizing: border-box;
+
+}
+
+#mainDescr{
+    display: table-cell;
+    vertical-align: top;
+    width: 430px ;
+    min-width: 430px;
+    height: 340px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+}
+
+#mainDescr a{
+    padding-left: 20px;
+    color: #000;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+
+}
+
+#mainDescr h2{
+    padding-left: 20px;
+    text-transform: uppercase;
+    margin: 12px 0;
+
+}
+
+#bottomBlock{
+    margin-top: 40px;
+}
+
+
+#mainCalc{
+    display: table-cell;
+    vertical-align: top;
+    width: 434px ;
+    min-width: 434px;
+    max-width: 434px;
+    height: 260px;
+    border-right: 2px solid #9d9d9d;
+    box-sizing: border-box;
+
+
+}
+
+#mainCalc h2{
+    text-transform: uppercase;
+
+}
+
+#mainCalc span{
+    font-size: 13px;
+    font-weight:bold;
+    text-transform: uppercase;
+
+}
+
+#mainCalc input{
+    margin: 0 20px;
+
+}
+
+#calcReq{
+    width: 400px;
+    height: 55px;
+    background-color: #454545;
+    font-size: 30px;
+    font-weight:bold;
+    font-family: Arial;
+    padding:10px 0 0 0;
+    margin: 20px;
+    text-align: center;
+
+}
+
+#calcReq a{
+    text-decoration: none;
+    color: #fff;
+
+
+}
+
+
+#mainMoney{
+    display: table-cell;
+    vertical-align: top;
+    width: 430px ;
+    min-width: 430px;
+    height: 260px;
+    background-image: url(pic/mainMoney.jpg);
+    background-repeat: no-repeat;
+    background-position: 50px 30px ;
+    box-sizing: border-box;
+
+}
+
+#newsBlock h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: normal;
+
+
+}
+
+.newsDate {
+    color: #de001f;
+}
+
+.newsTitle{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.newsLink{
+    color: #de001f;
+    margin-bottom: 40px;
+    display: block;
+    font-style: italic;
+}
+
+.bannerPrim{
+
+    border: 1px solid black;
+    width: 200px;
+    min-width: 200px;
+    height: 100px;
+    margin: 0 0 20px 25px;
+    text-align: center;
+    line-height: 100px;
+    text-transform: uppercase;
+
+}
+
+.bannerSecon{
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 0 0 20px 25px;
+    text-align: center;
+    line-height: 200px;
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #c1c1c1;
+    height: 85px;
+    color: white;
+    font-size: 0.8em;
+    box-sizing: border-box;
+
+}
+
+footer div{
+    padding: 20px 0 0 25px;
+}
