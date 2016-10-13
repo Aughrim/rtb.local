@@ -69,37 +69,78 @@ header a {
 
 }
 
-#lmenu{
+#menu{
 	max-width: 250px;
 	min-width: 250px;
 	width: 250px;
 }
 
-#lmenu ul{
+.lmenu {
     margin: 0 0 70px 0;
     padding: 0 16px 0 25px;
 }
 
 
-#lmenu li {
+
+.lmenu a{
+	/* display: block; */
+
+}
+
+
+.insmenu{
+	padding: 0;
+	margin: 0;
+	/* display: block; */
+	background-color: white;
+
+}
+
+.buttonMenu {
     display: inline-block;
     padding-right: 0;
-}
-
-#lmenu ul div{
-    background-color: #959595 ;
+	background-color: #959595 ;
     width: 207px;
-    height: 25px;
-    margin-bottom: 3px;
+    min-height: 30px;
+	margin-top: 5px; 
 }
 
-#lmenu a{
+
+.buttonMenu a{
     color: #fff;
     font-size: 12px;
     text-decoration:none;
     padding-left: 5px;
     font-weight:bold;
     text-transform: uppercase;
+	/* display: block; */
+	height: 30px;
+	line-height: 30px;
+}
+
+
+.butInsMenu {
+    display: inline-block;
+    padding-right: 0;
+	background-color: #c1c1c1 ;
+    width: 207px;
+    height: 30px;
+    margin-top: 1px;
+	
+
+	
+}
+
+
+
+.butInsMenu a{
+    color: #000;
+    font-size: 10px;
+    text-decoration:none;
+    padding-left: 5px;
+    text-transform: uppercase;
+	/* line-height: 30px; */
+	
 }
 
 
@@ -119,7 +160,7 @@ header a {
     font-weight:bold;
     font-family: Arial;
     padding:0 0 5px 10px;
-    margin: 0 0 20px 10px;
+    margin: 3px 0 20px 10px;
 }
 
 article {
@@ -294,4 +335,21 @@ footer{
 
 footer div{
     padding: 20px 0 0 25px;
+}
+
+.icon-caret-right::before {
+    content: "\25B6";
+	color: white;
+	padding-left:5px;
+}
+.icon-caret-down::before {
+    content: "\25BC";
+	color: white;
+	padding-left:5px;
+}
+
+
+
+.lmenu li ul{
+	display: none;
 }

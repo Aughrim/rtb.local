@@ -53,9 +53,12 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="keywords" content="Рязанская Транспортная Биржа" />
 	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>	
+	<script type="text/javascript" src="assets/templates/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="assets/templates/js/script.js"></script>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
 	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 	<link rel="stylesheet" href="assets/templates/css/style.css" media="screen" type="text/css" />
+
 
 
 	<!--[if lt IE 9]>
@@ -84,17 +87,31 @@
 		
 		<section id="wrap-content">
 
-			<nav id="lmenu">
-				<ul>
-					<li><div><a href=\'#\'>Главная</a></div></li>
-					<li><div><a href=\'#\'>О компании</a></div></li>
-					<li><div><a href=\'#\'>Инвесторам</a></div></li>
-					<li><div><a href=\'#\'>Автопарк</a></div></li>
-					<li><div><a href=\'#\'>Цены на грузоперевозки</a></div></li>
-					<li><div><a href=\'#\'>Сотрудничество</a></div></li>
-					<li><div><a href=\'#\'>Авторынок</a></div></li>
-					<li><div><a href=\'#\'>Партнерские программы</a></div></li>
-
+			<nav id="menu">
+				<ul class="lmenu">
+					<li class=\'buttonMenu\'><a href=\'#\'>Главная</a></li>
+					<li class=\'buttonMenu\'><a href=\'#\'>О компании</a></li>
+					<li class=\'buttonMenu\'><a href=\'#\'>Инвесторам</a></li>
+					<li class=\'sub buttonMenu\'><span class=\'icon-caret-right\'></span><a href=\'#\'>Автопарк</a>
+					   <ul class="insmenu">
+					       <li class=\'butInsMenu\'><a href=\'#\'>-грузовые авто</a></li>
+					       <li class=\'butInsMenu\'><a href=\'#\'>-длинномеры</a></li>
+					       <li class=\'butInsMenu\'><a href=\'#\'>-спецтехника</a></li>
+					   
+					   </ul>
+					</li>
+					<li class=\'sub buttonMenu\'><span class=\'icon-caret-down\'></span><a href=\'#\'>Сотрудничество</a>
+					    <ul class="insmenu">
+					       <li class=\'butInsMenu\'><a href=\'#\'>-организациям</a></li>
+					       <li class=\'butInsMenu\'><a href=\'#\'>-инвесторам</a></li>
+					       <li class=\'butInsMenu\'><a href=\'#\'>-владельцам ТС</a></li>
+					   
+					   </ul>
+					</li>
+					<li class=\'buttonMenu\'><a href=\'#\'>Цены на грузоперевозки</a></li>
+					<li class=\'buttonMenu\'><a href=\'#\'>Авторынок</a></li>
+					<li class=\'buttonMenu\'><a href=\'#\'>Партнерские программы</a></li>
+					<li class=\'buttonMenu\'><a href=\'#\'>Новости</a></li>
 				</ul>
 
 				<div class="bannerPrim">
