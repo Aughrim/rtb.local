@@ -105,6 +105,11 @@ header a {
 	margin-top: 5px; 
 }
 
+.buttonMenu:hover{
+	
+	background-color: #454545;
+}
+
 
 .buttonMenu a{
     color: #fff;
@@ -131,6 +136,10 @@ header a {
 	
 }
 
+.butInsMenu:hover{
+	
+	background-color: #adadad;
+}
 
 
 .butInsMenu a{
@@ -338,12 +347,12 @@ footer div{
 }
 
 .icon-caret-right::before {
-    content: "\25B6";
+    content: "\25B7";
 	color: white;
 	padding-left:5px;
 }
 .icon-caret-down::before {
-    content: "\25BC";
+    content: "\25BD";
 	color: white;
 	padding-left:5px;
 }

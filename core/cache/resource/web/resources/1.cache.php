@@ -100,7 +100,7 @@
 					   
 					   </ul>
 					</li>
-					<li class=\'sub buttonMenu\'><span class=\'icon-caret-down\'></span><a href=\'#\'>Сотрудничество</a>
+					<li class=\'sub buttonMenu\'><span class=\'icon-caret-right\'></span><a href=\'#\'>Сотрудничество</a>
 					    <ul class="insmenu">
 					       <li class=\'butInsMenu\'><a href=\'#\'>-организациям</a></li>
 					       <li class=\'butInsMenu\'><a href=\'#\'>-инвесторам</a></li>
